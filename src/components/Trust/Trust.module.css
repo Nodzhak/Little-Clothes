@@ -1,0 +1,79 @@
+.trust{
+    max-width: 1440px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #50735F;
+    background-color: rgb(248, 240, 229);
+}
+
+.images{
+    position: relative;
+}
+
+.images img{
+    position: absolute;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center p{
+    font-family: GT Cinetype Trial;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.center h2{
+    font-family: Linotype Didot Std;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 40px;
+}
+
+.center img{
+    margin: 0 auto;
+    margin-bottom: 40px;
+    z-index: 1;
+}
+
+.line{
+    top: 295px;
+}
+
+.kite{
+    top: 203px;
+    left: 1170px;
+}
+
+.leaf{
+    top: -215px;
+}
+
+.treehouse{
+    z-index: 2;
+    top: 80px;
+    left: 305px;
+}
+
+.inserita{
+    top: 460px;
+    left: 1070px;
+}
+
+.graphicelement{
+    top: 400px;
+    left: 1120px;
+}
+
+.play{
+    top: 420px;
+    left: 1138px;
+}

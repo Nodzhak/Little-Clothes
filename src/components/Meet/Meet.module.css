@@ -1,0 +1,78 @@
+.meet{
+    max-width: 1440px;
+    height: 700px;
+    background-color: rgb(248, 240, 229);
+}
+
+.images{
+    position: relative;
+}
+
+.girl{
+    position: absolute;
+    z-index: 2;
+    left: 422px;
+    top: 355px;
+}
+
+.leaf{
+    position: absolute;
+    left: 389px;
+    top: 148px;
+}
+
+.leafiet{
+    position: absolute;
+    z-index: 1;
+    left: 552px;
+    top: 120px;
+}
+
+.treehouse{
+    position: absolute;
+    z-index: 3;
+    left: 461px;
+    top: 525px;
+}
+
+.text{
+    font-family: GT Cinetype Trial;
+    font-weight: 400;
+    padding-left: 952px;
+    padding-top: 150px;
+    color: #50735F;
+}
+
+.text h2{
+    width: 279px;
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.text p{
+    width: 279px;
+    font-size: 14px;
+}
+
+.button {
+    font-family: GT Cinetype Trial;
+    color: #50735F;
+    padding: 18px 38px;
+    font-size: 16px;
+    border: 2px solid #50735F;
+    border-radius: 80px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: rgb(248, 240, 229);
+    width: 174px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 20px;
+  }
+  
+  .button:hover {
+    background-color: #C58A46;
+    color: #ffffff;
+  }

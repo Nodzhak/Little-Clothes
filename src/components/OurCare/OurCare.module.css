@@ -1,0 +1,109 @@
+.ourcare{
+    max-width: 1440px;
+    padding: 20px 103px;
+    display: flex;
+    background-color: rgb(248, 240, 229);
+    font-family: GT Cinetype Trial;
+    font-weight: 400;
+    position: relative;
+}
+
+.firstColumn{
+    position: relative;
+    width: 50%;
+}
+
+.secondColumn{
+    width: 50%;
+}
+
+.secondColumn .paragraph{
+    margin-left: 162px;
+}
+
+.ourcare h2{
+    font-family: Linotype Didot Std;
+    font-size: 48px;
+    line-height: 1;
+    width: 425px;
+}
+
+.ourcare h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.ourcare p{
+    font-size: 14px;
+    width: 360px;
+}
+
+.paragraph{
+    position: relative;
+}
+
+.paragraph img{
+position: absolute;
+}
+
+.hands{
+    position: absolute;
+    z-index: 1;
+    top: 508px;
+    left: 262px;
+}
+  
+.human{
+    position: absolute;
+    top: 558px;
+    left: 172px;
+    transform: rotate(-5deg);
+}
+
+.smallcircle{
+    position: absolute;
+    top: 598px;
+    left: 172px;
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.bigcircle{
+    position: absolute;
+    top: 548px;
+    left: 92px;
+    animation: rotate 28s linear infinite;
+}
+@keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+.heart{
+    position: absolute;
+    top: 560px;
+    left: 112px;
+    animation: heartbeat 3s infinite;
+}
+
+.wand{
+    position: absolute;
+    z-index: 1;
+    top: -75px;
+    left: 1180px;
+}
