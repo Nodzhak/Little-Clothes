@@ -1,0 +1,54 @@
+[
+    {
+      "id": "freeShipping",
+      "question": "Do you offer free shipping?",
+      "answers": [
+        "We offer free shipping within the continental US on orders of $150+. Orders shipping to Alaska, Hawaii, or outside of the US are excluded from free shipping."
+      ]
+    },
+    {
+      "id": "shipOutsideUS",
+      "question": "Do you ship outside the US?",
+      "answers": [
+        "Yes, we ship all over the world! Shipping costs will apply, and will be added at checkout. Packages are shipped from the US and will typically take 10-14 days to arrive.",
+        "Treehouse is not responsible for any customs, duties or import fees associated with receiving your order. Customs and duties are the sole responsibility of the purchaser."
+      ]
+    },
+    {
+      "id": "exchange",
+      "question": "How can I do an exchange or return?",
+      "answers": [
+        "We want to make exchanges and returns as easy as possible for you. Please click here for our return policy."
+      ]
+    },
+    {
+      "id": "order",
+      "question": "How soon will my order ship?",
+      "answers": [
+        "We aim to ship all orders in 1 - 2 business days. During peak holiday or sale times, it may take longer. If you’ve any questions or concerns about your order, contact us at info@mygreenkid.com."
+      ]
+    },
+    {
+      "id": "items",
+      "question": "How will my items be shipped?",
+      "answers": [
+        "All orders will be shipped via USPS.",
+        "All orders are packaged in compostable mailing bags for shipping.",
+        "We do not use additional filler material–such as tissue or shredded paper–in order to minimize waste as much as possible."
+      ]
+    },
+    {
+      "id": "track",
+      "question": "Can I track my order?",
+      "answers": [
+        "Yes. Once your order has shipped, you will receive an email containing your tracking information and expected delivery date."
+      ]
+    },
+    {
+      "id": "contact",
+      "question": "My shipment was damaged/missing an item. Who should I contact?",
+      "answers": [
+        "If you’ve had issues with your shipment, we are here to help. Please email us at info@mygreenkid.com with your order number and a detailed description of the issue with any supporting photos as applicable."
+      ]
+    }
+  ]

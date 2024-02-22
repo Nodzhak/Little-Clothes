@@ -1,5 +1,4 @@
 .container {
-  
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,7 +35,8 @@
   }
   
   .navTags a:hover {
-    color: #ff0000;
+    color: #50735F;
+    text-shadow: 4px 4px 2px rgba(12, 27, 12, 0.1);
   }
 
   .search {
@@ -58,4 +58,5 @@
     outline: none;
     background-color: transparent;
     flex: 1;
+    color: #ffffff;
   }
