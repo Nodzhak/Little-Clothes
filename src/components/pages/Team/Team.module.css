@@ -1,0 +1,371 @@
+.team{
+    max-width: 1440px;
+    padding: 50px 103px;
+    font-family: GT Cinetype Trial;
+    font-weight: 400;
+    color: #50735F;
+    line-height: 1;
+    background-color: rgb(248, 240, 229);
+    position: relative;
+}
+
+.team h2{
+    font-family: Linotype Didot Std;
+    font-size: 48px;
+}
+
+.team p{
+    font-size: 14px;
+
+}
+
+.hiThere{
+    display: flex;
+    gap: 40px;
+    position: relative;
+}
+
+.hiThereText{
+    padding-top: 40px;
+}
+
+.hiThereText h2{
+    margin-bottom: 20px;
+}
+
+.hiThereText p{
+    margin-bottom: 10px;
+    width: 375px;
+    line-height: 1.4;
+}
+
+.Up{
+    text-transform: uppercase;
+}
+
+.hiThereText img[alt="circle"]{
+    position: absolute;
+    top: 170px;
+    left: 630px;
+}
+
+.hiThereText img[alt="arrow"]{
+    position: absolute;
+    top: 130px;
+    left: 770px;
+}
+
+.hiThereText img[alt="short"]{
+    position: absolute;
+    top: 185px;
+    left: 660px;
+}
+
+.one, .three{
+    margin-left: 350px;
+}
+
+.two{
+    margin-left: 300px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    margin: 150px 0;
+    position: relative;
+}
+
+.list img[alt="leaf one"]{
+    position: absolute;
+    top: -75px;
+    left: 10px;
+}
+
+.list img[alt="leaf two"]{
+    position: absolute;
+    top: 265px;
+    left: 1060px;
+}
+
+.list img[alt="line"]{
+    position: absolute;
+    top: -150px;
+    left: 1072px;
+}
+
+.list img[alt="men"]{
+    position: absolute;
+    top: -185px;
+    left: 960px;
+}
+
+.list img[alt="livello"]{
+    position: absolute;
+    top: -150px;
+    left: 1030px;
+}
+
+.list img[alt="group el"]{
+    position: absolute;
+    top: -270px;
+    left: 1028px;
+}
+
+.vision{
+    display: flex;
+    gap: 180px;
+}
+
+.vision h2{
+    margin: 10px 0;
+}
+
+.vision p{
+    width: 362px;
+}
+
+.visionText{
+    padding: 60px 0;
+    width: 385px;
+}
+
+.visionText p{
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.visionText img[alt="leaf three"]{
+    position: absolute;
+    top: 1370px;
+    left: 1128px;
+}
+
+.video{
+    margin-bottom: 100px;
+}
+
+.video p{
+    width: 249px;
+    text-transform: uppercase;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.videoText{
+    display: flex;
+    justify-content: space-between;
+}
+
+.videoText p{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: end;
+}
+
+.mission{
+    display: flex;
+    gap: 180px;
+    margin-bottom: 100px;
+}
+
+.mission h2{
+    margin-bottom: 10px;
+}
+
+.mission h3{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.mission p{
+    margin-bottom: 60px;
+}
+
+
+.missionFC{
+    width: 380px;
+}
+
+.missionSC{
+    position: relative;
+    width: 308px;
+}
+
+.missionSC h3{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.missionSC li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.missionSC img[alt="children"]{
+    margin-left: 280px;
+}
+
+.missionSC li img[alt="one"]{
+padding-right: 12px;
+}
+
+.absolut img[alt="hart"]{
+    position: absolute;
+    top: 200px;
+    left: 480px;
+}
+
+.absolut img[alt="boy"]{
+    position: absolute;
+    top: 720px;
+    left: 430px;
+    z-index: 1;
+}
+
+.missionSC img[alt="anastasia"]{
+    margin-top: 40px;
+}
+
+.chat{
+    max-width: 1440px;
+    padding: 50px 103px;
+    font-family: GT Cinetype Trial;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1;
+    background-color: #ADBBC4;
+    display: flex;
+    align-items: center;
+}
+
+.chat h2{
+    font-family: Linotype Didot Std;
+    font-size: 48px;
+}
+
+.chat h3{
+    font-size: 14px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.chat p{
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.chatText{
+    width: 285px;
+}
+
+.chatText h2{
+    margin-bottom: 20px;
+}
+
+.chatText p{
+    margin: 10px 0;
+}
+
+.chatImg{
+    margin: 0 auto;
+}
+
+.chatTextp{
+    padding-bottom: 50px;
+}
+
+.about {
+    position: relative;
+    width: 1440px;
+    color: #50735F;
+    line-height: 1;
+    background-color: rgb(248, 240, 229);
+    font-weight: 400;
+    text-align: center; 
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about > div {
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-family: Linotype Didot Std;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    width: 390px;
+    margin: 0 auto;
+    margin-bottom: 20px; 
+}
+
+.about img[alt="air"] {
+    position: absolute;
+    top: 60px;
+    left: 1121px;
+}
+
+.about img[alt="vector"] {
+    position: absolute;
+    top: 105px;
+    left: 1040px;
+}
+
+.about a{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 60px;
+}
+
+.about a:hover{
+    color: #C58A46;
+}
+
+.company{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.together{
+    width: 1440px;
+    color: #50735F;
+    line-height: 1;
+    background-color: rgb(248, 240, 229);
+    font-weight: 400;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.together h3{
+    text-transform: uppercase;
+    width: 270px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    line-height: 1.1;
+}
+
+.together p{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.together a{
+    font-size: 44px;
+    text-transform: uppercase;
+}
+
+  
+  

@@ -1,0 +1,30 @@
+[
+    {
+      "id": "clothing",
+      "question": "How does your clothing fit?",
+      "answers": [
+        "Our products generally fit true to size. We have included a size chart on each product page for you to double check prior to purchasing. Additionally, we will mention if an item fits larger or smaller in each product’s description."
+      ]
+    },
+    {
+      "id": "collections",
+      "question": "Which fabrics do you use in your collections?",
+      "answers": [
+        "GOTS-certified organic cotton is the largest source of raw material in our main collection. The conventional production of cotton material has a significant negative impact on the environment and potential negative impact on our health: this is why we will never use conventional cotton in our production. In our Summer 2023 collection, we’ve also used OEKO-TEX   Standard 100 certified linen which means the linen has been tested for harmful substances: the article therefore is harmless for human health."
+      ]
+    },
+    {
+      "id": "getting",
+      "question": "A product I love is out of stock! Will you be getting more in soon?",
+      "answers": [
+        "In order to limit the potential for textile waste, we manufacture in small batches. As a result, our collections are limited. The good news is, we will be manufacturing new collections next season. You can sign up to be informed via our mailing list here."
+      ]
+    },
+    {
+      "id": "recommend",
+      "question": "My child seems to be right in between sizes. What size do you recommend I choose?",
+      "answers": [
+        "If in between, we always recommend choosing a bigger size for your child. They’re always growing and are sure to fit  the next size up soon. Note, as well, that on each product’s page is listed if a garment tends to run small or large."
+      ]
+    }
+  ]
