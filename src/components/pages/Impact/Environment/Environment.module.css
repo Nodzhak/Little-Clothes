@@ -1,0 +1,59 @@
+.environment{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.firstColumn{
+    margin-right: 240px;
+}
+
+.firstColumn h4{
+    width: 271px;
+    margin: 20px 0;
+}
+
+.firstColumn p{
+    width: 360px;
+}
+
+.icons{
+    display: flex;
+    gap: 24px;
+    margin: 20px 0 175px 0;
+}
+
+.secondColumn{
+    position: relative;
+}
+
+.secondColumn img[alt="field"]{
+    margin-bottom: 20px;
+}
+
+.secondColumn p{
+    width: 385px;
+    margin: 10px 0 40px 0;
+}
+
+.column{
+    margin-top: 40px;
+    display: flex;
+    gap: 60px;
+}
+
+.column p{
+    width: 108px;
+    margin: 20px 0 ;
+}
+
+.secondColumn img[alt="leaf one"]{
+    position: absolute;
+    top: 650px;
+    left: 370px; 
+}
+
+.secondColumn img[alt="leaf two"]{
+    position: absolute;
+    top: 760px;
+    left: 530px; 
+}
