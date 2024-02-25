@@ -1,0 +1,42 @@
+.process{
+    position: relative;
+    display: flex;
+    gap: 150px;
+    padding: 100px 0;
+}
+
+.process img[alt="machine"]{
+    margin-top: 100px;
+}
+
+.text{
+    width: 385px;
+    margin: auto;
+}
+
+.text h4{
+    margin: 20px 0;
+    width: 320px;
+}
+
+.process img[alt="skein"]{
+    position: absolute;
+    top: 540px;
+    left: 590px
+}
+
+.process img[alt="champion"]{
+    position: absolute;
+    top: 709px;
+    left: 540px
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+.overflow h1{
+    text-overflow: ellipsis;
+    margin: 100px 0 0 200px;
+    white-space: nowrap;
+}

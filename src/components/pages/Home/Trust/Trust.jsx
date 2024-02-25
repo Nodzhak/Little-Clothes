@@ -8,7 +8,7 @@ import leaf from './images/leaf.svg';
 import play from './images/play.svg';
 import treehouse from './images/treehouse.svg';
 import line from './images/line.svg';
-import ShopNow from '../Hero/ShopNow';
+import ShopNow from '../../ShopNow/ShopNow';
 
 
 

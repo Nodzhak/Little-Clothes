@@ -9,7 +9,14 @@
     padding: 100px 103px;
 }
 
+.container h1{
+    font-family: Linotype Didot Std;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
 .container h2{
+    font-family: Linotype Didot Std;
     font-size: 48px;
 }
 

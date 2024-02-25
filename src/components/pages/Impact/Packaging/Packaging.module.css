@@ -1,0 +1,43 @@
+.packaging{
+    display: flex;
+    color: #ffffff;
+}
+
+.column{
+    width: 50%;
+    background-color: #ADBBC4;
+}
+
+.content{
+    margin: 100px 0 0 120px;
+    position: relative;
+}
+
+.content h2{
+    margin-top: 30px;
+}
+
+.content h4{
+    width: 272px;
+    margin: 10px 0;
+}
+
+.content p{
+    width: 303px;
+}
+
+.content img[alt="shell"]{
+    position: absolute;
+    top: 55px;
+    left: 10px;
+}
+
+.footnote{
+    display: flex;
+    margin-left: 640px;
+}
+
+.footnote h4{
+    margin-top: 30px;
+    width: 223px;
+}

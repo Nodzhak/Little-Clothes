@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "./Hero.module.css";
 import hero from './images/people.jpg'
-import ShopNow from './ShopNow.jsx'
+import ShopNow from '../../ShopNow/ShopNow.jsx'
 import Scroll from './Scroll.jsx'
 
 const Hero = () => {

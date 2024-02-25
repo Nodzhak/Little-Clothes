@@ -1,5 +1,5 @@
 import React from 'react';
-import ShopNow from '../Hero/ShopNow.jsx'
+import ShopNow from '../../ShopNow/ShopNow.jsx'
 import styles from "./Akcio.module.css";
 import chupachups from './images/chupachups.svg'
 import cloth from './images/cloth.jpg'

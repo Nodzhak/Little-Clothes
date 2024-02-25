@@ -1,5 +1,5 @@
 import React from 'react';
-import ReadMore from './ReadMore'
+import ReadMore from '../../ReadMore/ReadMore.jsx'
 import styles from "./Meet.module.css";
 import girl from './images/girl.jpg'
 import leaf from './images/leaf.svg'

@@ -55,24 +55,3 @@
     font-size: 14px;
 }
 
-.button {
-    font-family: GT Cinetype Trial;
-    color: #50735F;
-    padding: 18px 38px;
-    font-size: 16px;
-    border: 2px solid #50735F;
-    border-radius: 80px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    background-color: rgb(248, 240, 229);
-    width: 174px;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    margin-top: 20px;
-  }
-  
-  .button:hover {
-    background-color: #C58A46;
-    color: #ffffff;
-  }
