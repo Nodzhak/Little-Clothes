@@ -1,0 +1,161 @@
+.card{
+    display: flex;
+}
+
+.firstColumn{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 70px 50px 50px 70px;
+    display: block;
+}
+
+.firstColumn img[alt="giftcard"]{
+    position: absolute;
+    top: 170px;
+    left: 160px;
+}
+.firstColumn img[alt="groupel"]{
+    position: absolute;
+    top: 100px;
+    left: 220px;
+}
+.firstColumn img[alt="logo"]{
+    position: absolute;
+    top: 90px;
+    left: 100px;
+}
+.firstColumn img[alt="prise"]{
+    position: absolute;
+    top: 122px;
+    left: 255px;
+}
+
+.secondColumn h2{
+  margin-bottom: 20px;
+}
+
+.secondColumn p{
+  margin-bottom: 10px;
+}
+
+.stars{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0 20px 0;
+}
+
+.tax{
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
+.tax h3{
+  font-size: 36px;
+  line-height: 1;
+  font-family: GT Cinetype Trial;
+}
+
+.tax p{
+  opacity: 0.6;
+}
+
+.synonyms{
+  display: flex;
+  gap: 40px;
+}
+
+.synonyms select{
+  background-color: transparent;
+  border: 1px solid #50735F;
+  border-radius: 8px;
+  width: 200px;
+  height: 32px;
+  padding: 0 12px;
+}
+
+.synonyms option {
+  background-color: rgb(248, 240, 229); 
+  height: 52px;
+}
+
+.quantity{
+  height: 32px;
+  border: 1px solid #50735F;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.quantity span{
+  border-left: 1px solid #50735F;
+  border-right: 1px solid #50735F;
+  margin-top: 8px;
+  padding:0 4px 16px 4px;
+  
+}
+
+.imageContainer img[alt="prise"] {
+    transition: transform 0.7s ease;
+  }
+  
+  .imageContainer img[alt="prise"]:hover {
+    transform: rotate(360deg);
+  }
+
+.buttonAdd {
+    margin: 20px 0;
+    font-family: GT Cinetype Trial;
+    color: #ffffff;
+    padding: 18px 18px;
+    font-size: 16px;
+    border-radius: 80px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #C58A46;
+    width: 169px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border: 2px solid transparent;
+  }
+
+  .buttonSend{
+    font-family: GT Cinetype Trial;
+    color: #50735F;
+    padding: 18px 18px;
+    font-size: 16px;
+    border-radius: 80px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: rgb(248, 240, 229);
+    width: 169px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #50735F;
+  }
+  
+  .buttonAdd:hover  {
+    background-color: rgb(248, 240, 229);
+    color: #50735F;
+    border: 2px solid #50735F;
+  }
+
+  .buttonSend:hover{
+    background-color: #C58A46;
+    color: #ffffff;
+    border: 2px solid transparent;
+  }
+
+  .show{
+    display: flex;
+    justify-content: space-between;
+    width: 491px;
+  }
+
+  .important p{
+    width: 371px;
+  }

@@ -1,0 +1,54 @@
+.journalArticles{
+    display: flex;
+    flex-wrap: wrap;
+    gap:40px;
+    margin-top: 100px;
+}
+
+.firstNews{
+    width: 365px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 6px 10px 25px 0px rgba(40, 40, 40, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.firstNews:hover {
+    transform: scale(1.05);
+}
+
+.content{
+    padding: 40px;
+    width: 380px;
+}
+
+.content h3{
+    margin: 10px 0;
+}
+
+.content p{
+    margin-bottom: 20px;
+}
+
+.content a{
+    display: flex;
+    gap: 10px;
+}
+
+.content a:hover{
+    color: #C58A46;
+}
+
+.showMoreButton{
+    margin: 0 auto;
+    border: 2px solid #50735F;
+    padding: 18px 48px;
+    border-radius: 80px;
+}
+
+.showMoreButton:hover{
+    background-color: #C58A46;
+    color: #ffffff;
+    border-color: transparent;
+}
+

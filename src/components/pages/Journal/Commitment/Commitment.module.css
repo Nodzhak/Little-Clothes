@@ -1,0 +1,17 @@
+.commitment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.text{
+    font-family: Inter;
+    font-size: 48px;
+    line-height: 1.2;
+    width: 991px;
+}
+
+.text p{
+    margin-bottom: 40px;
+}

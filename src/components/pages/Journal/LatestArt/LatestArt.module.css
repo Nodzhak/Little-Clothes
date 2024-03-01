@@ -1,0 +1,50 @@
+.latestArt{
+    background-color: #ADBBC4;
+    margin-left: -206px;
+    margin-right: -206px;
+    padding: 50px 103px;
+}
+
+.journalArticles {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between; 
+    margin-top: 40px;
+}
+
+.firstNews {
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 6px 10px 25px 0px rgba(40, 40, 40, 0.1);
+    transition: transform 0.3s ease;
+    background-color: rgb(248, 240, 229);
+}
+
+.firstNews:hover {
+    transform: scale(1.05);
+}
+
+.content {
+    padding: 20px; 
+}
+
+.content h3 {
+    margin: 10px 0;
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+.content p:last-child {
+    margin-bottom: 0; 
+}
+
+.content a {
+    display: flex;
+    gap: 10px;
+}
+
+.content a:hover {
+    color: #C58A46;
+}

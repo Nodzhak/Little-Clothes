@@ -10,6 +10,7 @@ import FAQ from './components/pages/FAQ/FAQ';
 import Journal from './components/pages/Journal/Journal';
 import Contacts from './components/pages/Contacts/Contacts';
 import Home from './components/pages/Home/Home';
+import NewJournalContent from './components/pages/Journal/NewJournalContent'
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           <Route exact path="/faq" element={<FAQ />} />
           <Route exact path="/journal" element={<Journal />} />
           <Route exact path="/contacts" element={<Contacts />} />
+          <Route exact path="/articles/:id" element={<NewJournalContent />} />
         </Routes>
         <Footer />
       </div>
