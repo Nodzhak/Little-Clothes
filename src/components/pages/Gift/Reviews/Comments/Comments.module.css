@@ -1,0 +1,35 @@
+.comment{
+    text-align: center;
+}
+
+.structure{
+    display: flex;
+    gap: 20px;
+}
+
+.list ul{
+    display: flex;
+    gap: 40px;
+}
+
+.letter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.letter p{
+    background-color: #884F56;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.text{
+    text-align: start;
+}

@@ -77,8 +77,8 @@ export default class Card extends Component {
             <div className={styles.buttonSend}>
               <button type='button' >SEND AS A GIFT</button>
             </div>
-            <Important />
-            
+            <hr className={styles.hr}/>
+            <Important/>
           </div>
         </div>
       </div>

@@ -1,0 +1,19 @@
+.star{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.star a{
+    margin-left: 10px;
+}
+
+
+.rating{
+}
+
+.rating h2{
+    text-align: start;
+    font-family: Northwell;
+}
