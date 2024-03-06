@@ -41,11 +41,6 @@ export default class Card extends Component {
           <div>
             <h2>E-Gift card</h2>
             <p>A meaningful gift that lasts. Treehouse is love and care.</p>
-            <div className={styles.stars}>
-              <img src="" alt="" />
-              <p>5 reviews</p>
-              <p>Write a review</p>
-            </div>
             <div className={styles.tax}>
               <h3 >25.00 USD</h3>
               <p>(Tax included)</p>

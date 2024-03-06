@@ -1,24 +1,39 @@
-.comment{
+.comment {
     text-align: center;
-}
+    margin-top: 60px;
+  }
 
-.structure{
+  .comment h2{
+    font-size: 32px;
+  }
+
+  .commentListContainer{
+    margin: 20px 0;
+  }
+  
+  .commentList {
     display: flex;
-    gap: 20px;
-}
-
-.list ul{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .commentItem {
+    width: 30%; 
+    border: 2px solid #884F56;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
     display: flex;
-    gap: 40px;
-}
-
-.letter{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.letter p{
+  }
+  
+  .letter {
+    flex: 0 0 auto;
+    margin-right: 10px;
+  }
+  
+  .letter p {
     background-color: #884F56;
     border-radius: 50%;
     width: 80px;
@@ -28,8 +43,62 @@
     align-items: center;
     justify-content: center;
     font-size: 40px;
-}
+  }
+  
+  .commentContent {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: start;
+    
+  }
+  
+  .commentDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .commentText {
+    text-align: left;
+    padding: 20px 40px;
+  }
+  
+  .commentRating,
+  .commentName,
+  .commentTitle,
+  .commentContent p {
+    margin: 5px 0;
+  }
+  
+  .commentTitle {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
 
-.text{
-    text-align: start;
-}
+  .frame{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .showMoreButton {
+    font-family: GT Cinetype Trial;
+    color: #50735F;
+    padding: 18px 38px;
+    font-size: 16px;
+    border: 2px solid #50735F;
+    border-radius: 80px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: transparent;
+    width: 174px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 20px auto;
+  }
+  
+  .showMoreButton:hover {
+    background-color: #C58A46;
+    color: #ffffff;
+  }
