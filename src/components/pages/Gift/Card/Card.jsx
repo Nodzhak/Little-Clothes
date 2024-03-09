@@ -5,13 +5,17 @@ import prise from '../images/prise.svg';
 import logo from '../images/logo.svg';
 import groupel from '../images/groupel.svg';
 import giftcard from '../images/giftcard.svg';
-import Important from './Important/Important'
+import Important from './Important/Important';
+import SendGift from '../SendGift/SendGift';
+import Modal from 'react-modal';
 
 export default class Card extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      quantity: 1 
+      quantity: 1,
+      isModalOpen: false,
+      modalContent: "Default content" 
     };
   }
 
@@ -23,6 +27,26 @@ export default class Card extends Component {
     if (this.state.quantity > 1) {
       this.setState(prevState => ({ quantity: prevState.quantity - 1 }));
     }
+  };
+
+  openModal = () => {
+    this.setState({ isModalOpen: true });
+  };
+
+  closeModal = () => {
+    this.setState({ isModalOpen: false });
+  };
+
+  defaultContent = () => {
+    this.setState({ modalContent: "Default content" });
+  };
+
+  updateContent1 = () => {
+    this.setState({ modalContent: "Content 1" });
+  };
+
+  updateContent2 = () => {
+    this.setState({ modalContent: "Content 2" });
   };
 
   render() {
@@ -70,12 +94,21 @@ export default class Card extends Component {
               <button type='button' >ADD TO CART</button>
             </div>
             <div className={styles.buttonSend}>
-              <button type='button' >SEND AS A GIFT</button>
+              <button type='button' onClick={this.openModal}>SEND AS A GIFT</button>
             </div>
             <hr className={styles.hr}/>
             <Important/>
           </div>
         </div>
+        <Modal isOpen={this.state.isModalOpen} onRequestClose={this.closeModal}>
+  <SendGift 
+    closeModal={this.closeModal} 
+    defaultContent={this.defaultContent}
+    updateContent1={this.updateContent1}
+    updateContent2={this.updateContent2}
+    content={this.state.modalContent}
+  />
+</Modal>
       </div>
     );
   }

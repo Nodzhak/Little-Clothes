@@ -48,14 +48,14 @@
   .commentContent {
     flex: 1 1 auto;
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     
   }
   
   .commentDetails {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
   }
   
   .commentText {
